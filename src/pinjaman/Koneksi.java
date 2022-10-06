@@ -10,7 +10,7 @@ public class Koneksi {
     private static Connection mysqlconfig;
     public static Connection configDB()throws SQLException{
         try {
-            String url="jdbc:mysql://localhost:3306/test"; //url database
+            String url="jdbc:mysql://localhost:3306/pinjaman"; //url database
             String user="root"; //user database
             String pass="root"; //password database
             DriverManager.registerDriver(new com.mysql.jdbc.Driver());
